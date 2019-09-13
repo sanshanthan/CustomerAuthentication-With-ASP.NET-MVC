@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Success";
+}
+@using CustomAuthAuthorizationSession.Security
+<h2>Success</h2>
+
+<h2>WELCOME TO @SessionPersister.Username</h2>
+<a href="@Url.Action("Logout","Account")">Logout</a>
